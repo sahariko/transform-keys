@@ -1,7 +1,7 @@
 {
   "name": "@cocopina/transform-keys",
-  "version": "0.0.1",
-  "description": "Deeply mutate an object&#39;s keys",
+  "version": "1.0.0",
+  "description": "Deeply mutate an object's keys",
   "author": "Sahar Brodbeker <saharonb@gmail.com>",
   "license": "ISC",
   "repository": {
@@ -26,8 +26,12 @@
     "eslint": "^5.9.0",
     "eslint-config-package": "^1.0.0",
     "jest": "^23.6.0",
+    "lodash": "^4.17.11",
     "regenerator-runtime": "^0.12.1",
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "is-object-literal": "^1.0.1"
   }
 }
