@@ -6,7 +6,10 @@ Creates a deep clone of a JSON data structure with keys transformed by a provide
 
 - [Installation](#installation)
 - [API](#api)
-    * [Options](#options)
+    * [`transformKeys(object, transform, [options])`](#transformkeysobject-transform-options)
+        * [`object [Object]`](#object-object)
+        * [`transform [Function]`](#transform-function)
+        * [`options [Object]`](#options-object)
 
 ## Installation
 
